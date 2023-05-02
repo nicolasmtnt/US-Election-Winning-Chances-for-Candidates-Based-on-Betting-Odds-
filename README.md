@@ -1,6 +1,11 @@
 # Election Winning Chances Visualization
 
-This project analyzes and visualizes the winning chances of political candidates in an election based on betting odds data. The data is provided in CSV files, with each file representing a specific date. The project is implemented in Python, using Flask for the web application and D3.js for the visualization.
+This project analyzes and visualizes the winning chances of political candidates in an election based on betting odds data.
+The data for this analysis is taken from a betting website and converted from betting odds to probabilities using the following formulas:
+\
+\
+$$\text{odds} = \frac{p}{1-p} $$
+
 
 
 ## Election Winner
